@@ -3,7 +3,7 @@
 
 # 🚀 Desafio: Gerenciador de Tarefas - .NET
 
-🔧 Projeto desenvolvido para o desafio de Gerenciador de Tarefas da [Efficient Sloth](https://efficient-sloth-d85.notion.site/Desafio-pr-tico-Gerenciador-de-tarefas-8dc106b6b7f54ec7ae31f1cbd5a4dc3e).  
+🔧 Projeto desenvolvido para o desafio [Gerenciador de Tarefas](https://efficient-sloth-d85.notion.site/Desafio-pr-tico-Gerenciador-de-tarefas-8dc106b6b7f54ec7ae31f1cbd5a4dc3e) da [Rocketseat](https://www.rocketseat.com.br/).
 🎯 O objetivo é construir uma API RESTful em .NET 8 aplicando boas práticas de arquitetura, injeção de dependência e padrões de projeto.
 
 </div>
@@ -62,6 +62,7 @@ Acesse o Swagger em:
 ├── TaskManager.API               // Camada de API (Controllers, Program, Swagger)
 ├── TaskManager.Application       // Casos de uso, entidades e repositórios
 ├── TaskManager.Communication     // DTOs, Requests, Responses e Enums
+├── TaskManager.Utilities         // Camada para classes globais
 ```
 
 ---
@@ -74,7 +75,7 @@ Acesse o Swagger em:
 
 ## 🙌 Créditos
 
-Desenvolvido por [Seu Nome](https://github.com/seu-usuario) como parte do [Desafio: Gerenciador de Tarefas](https://efficient-sloth-d85.notion.site/Desafio-pr-tico-Gerenciador-de-tarefas-8dc106b6b7f54ec7ae31f1cbd5a4dc3e).
+Desenvolvido por [Jonny Yamagushi](https://github.com/JonnyYamagushi) como parte do [Desafio: Gerenciador de Tarefas](https://efficient-sloth-d85.notion.site/Desafio-pr-tico-Gerenciador-de-tarefas-8dc106b6b7f54ec7ae31f1cbd5a4dc3e) da [Rocketseat](https://www.rocketseat.com.br/).
 
 ---
 
