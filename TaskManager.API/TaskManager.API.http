@@ -1,0 +1,45 @@
+﻿@TaskManager_API_HostAddress = http://localhost:5143
+
+### GET - Listar todas as tarefas
+GET {{TaskManager_API_HostAddress}}/api/task
+Accept: application/json
+
+###
+
+### GET - Obter uma tarefa pelo ID
+GET {{TaskManager_API_HostAddress}}/api/task/{{id}}
+Accept: application/json
+
+###
+
+### POST - Criar uma nova tarefa
+POST {{TaskManager_API_HostAddress}}/api/task
+Content-Type: application/json
+
+{
+  "title": "Criar Endpoint HTTP",
+  "description": "Implementar arquivo HTTP para testar API",
+  "priority": "High",
+  "deadLine": "2025-07-30"
+}
+
+###
+
+### PUT - Atualizar uma tarefa existente
+PUT {{TaskManager_API_HostAddress}}/api/task/{{id}}
+Content-Type: application/json
+
+{
+  "title": "Atualizar tarefa via HTTP",
+  "description": "Descrição da tarefa atualizada com sucesso",
+  "priority": "Medium",
+  "deadLine": "2025-08-15"
+}
+
+###
+
+### DELETE - Deletar uma tarefa
+DELETE {{TaskManager_API_HostAddress}}/api/task/{{id}}
+Accept: application/json
+
+###
